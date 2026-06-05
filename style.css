@@ -1,0 +1,211 @@
+/* --- Global Reset & Variables --- */
+:root {
+    --primary-color: #c5a880;
+    --dark-color: #222;
+    --light-bg: #fdfdfd;
+    --sidebar-bg: #1a1a1a;
+    --text-muted: #666;
+    --card-bg: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* --- Language Button Styling --- */
+.lang-toggle-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -0.5rem;
+}
+
+.lang-btn {
+    background: #333;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+    background: var(--primary-color);
+    color: #1a1a1a;
+}
+
+body {
+    background-color: var(--light-bg);
+    color: var(--dark-color);
+    font-family: 'Khmer', 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* --- Layout Container --- */
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* --- Left Sidebar (Desktop) --- */
+.sidebar {
+    width: 280px;
+    background-color: var(--sidebar-bg);
+    color: white;
+    padding: 3rem 2rem;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sidebar h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+.sidebar .subtitle {
+    color: #888;
+    font-style: italic;
+    margin-top: -1rem;
+    font-size: 0.9rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 2rem;
+}
+
+.filter-btn {
+    background: transparent;
+    border: 1px solid #333;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    text-align: left;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #ccc;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background-color: var(--primary-color);
+    color: #1a1a1a;
+    font-weight: 600;
+    border-color: var(--primary-color);
+}
+
+/* --- Main Content Area --- */
+.main-content {
+    margin-left: 280px; /* Matches sidebar width */
+    flex-grow: 1;
+    padding: 3rem;
+}
+
+/* --- Menu Grid & Cards --- */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+}
+
+.menu-item {
+    background: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.item-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #eee; /* Fallback color if image is missing */
+}
+
+.item-info {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.75rem;
+}
+
+.item-header h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.price {
+    color: #b08956;
+    font-weight: bold;
+}
+
+.item-text {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* --- Responsive Layout (Mobile & Tablet) --- */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 2rem 1.5rem;
+        text-align: center;
+    }
+
+    .sidebar h2, .sidebar .subtitle {
+        text-align: center;
+    }
+
+    .btn-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .filter-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 1.5rem;
+    }
+    
+    .menu-grid {
+        grid-template-columns: 1fr; /* Single column layout on small phones */
+    }
+}
