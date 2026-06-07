@@ -14,8 +14,11 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 34e369bf1169f4d0fb92d6377d6733d3f3d98ede
 /* --- Language Button Styling --- */
 .lang-toggle-container {
     display: flex;
@@ -24,9 +27,12 @@
 }
 
 .lang-btn {
+<<<<<<< HEAD
     position:fixed;
     bottom: 20px;
     right: 20px;
+=======
+>>>>>>> 34e369bf1169f4d0fb92d6377d6733d3f3d98ede
     background: #333;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
@@ -68,11 +74,30 @@ body {
     gap: 1.5rem;
 }
 
+<<<<<<< HEAD
+=======
+.sidebar h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+.sidebar .subtitle {
+    color: #888;
+    font-style: italic;
+    margin-top: -1rem;
+    font-size: 0.9rem;
+}
+>>>>>>> 34e369bf1169f4d0fb92d6377d6733d3f3d98ede
 
 .btn-container {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+<<<<<<< HEAD
+=======
+    margin-top: 2rem;
+>>>>>>> 34e369bf1169f4d0fb92d6377d6733d3f3d98ede
 }
 
 .filter-btn {
@@ -174,6 +199,7 @@ body {
         padding: 2rem 1.5rem;
         text-align: center;
     }
+<<<<<<< HEAD
     .main-logo {
         width: 50%;
         height: auto;
@@ -185,6 +211,10 @@ body {
     }
 
     .sidebar h2, .sidebar {
+=======
+
+    .sidebar h2, .sidebar .subtitle {
+>>>>>>> 34e369bf1169f4d0fb92d6377d6733d3f3d98ede
         text-align: center;
     }
 
@@ -193,6 +223,10 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         gap: 0.5rem;
+<<<<<<< HEAD
+=======
+        margin-top: 1rem;
+>>>>>>> 34e369bf1169f4d0fb92d6377d6733d3f3d98ede
     }
 
     .filter-btn {
