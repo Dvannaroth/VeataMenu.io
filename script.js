@@ -118,9 +118,9 @@ function renderMenu() {
             <div class="item-info">
                 <div class="item-header">
                     <h3>${langData.title}</h3>
-                    <span class="price">${item.price}</span>
                 </div>
                 <p class="item-text">${langData.desc}</p>
+                <h3 class="price">${item.price}</h3>
             </div>
         </article>`;
     });
