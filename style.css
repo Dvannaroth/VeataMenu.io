@@ -186,7 +186,12 @@ body {
         text-align: center;
     }
 
-    .sidebar h2, .sidebar .subtitle {
+    .logo {
+        margin: 0 auto;
+        width: 150px;
+    }
+
+    .sidebar h2, .sidebar {
         text-align: center;
     }
 
