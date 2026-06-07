@@ -18,6 +18,7 @@
 .lang-toggle-container {
     position:fixed;
     bottom: 2rem;
+    right: 2rem;
     margin-bottom: -0.5rem;
     z-index: 1;
 }
@@ -26,7 +27,8 @@
     background: #333;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    padding: 1rem 9rem;
+    width: 90px;
+    padding: 0.5rem;
     font-size: 0.85rem;
     border-radius: 4px;
     cursor: pointer;

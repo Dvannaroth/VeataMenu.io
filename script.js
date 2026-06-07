@@ -142,7 +142,7 @@ langToggleBtn.addEventListener("click", function () {
     currentLanguage = currentLanguage === "en" ? "km" : "en";
     
     // Style toggle indicator or text change if desired
-    langToggleBtn.innerText = currentLanguage === "en" ? "ភាសាខ្មែរ" : "English";
+    langToggleBtn.innerText = currentLanguage === "en" ? "KHMER" : "ENGLISH";
     
     // Update structural layout text and refresh menu
     updateUIStrings();
