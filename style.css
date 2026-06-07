@@ -16,9 +16,11 @@
 }
 /* --- Language Button Styling --- */
 .lang-toggle-container {
-    display: flex;
-    justify-content: flex-end;
+    position:fixed;
+    bottom: 2rem;
+    right: 2rem;
     margin-bottom: -0.5rem;
+    z-index: 1;
 }
 
 .lang-btn {

@@ -130,12 +130,6 @@ function renderMenu() {
 
 // Function to translate static sidebar headings and filter button texts
 function updateUIStrings() {
-    // Translate Title and Subtitle
-    const titleEl = document.getElementById("sidebar-title");
-    const subtitleEl = document.getElementById("sidebar-subtitle");
-    titleEl.innerText = titleEl.getAttribute(`data-${currentLanguage}`);
-    subtitleEl.innerText = subtitleEl.getAttribute(`data-${currentLanguage}`);
-
     // Translate all active category filter buttons
     filterBtns.forEach(btn => {
         btn.innerText = btn.getAttribute(`data-${currentLanguage}`);
