@@ -1,4 +1,4 @@
-// Menu Data Array supporting both English and Khmer
+﻿// Menu Data Array supporting both English and Khmer
 const menu = [
     {
         id: 1,
@@ -10,8 +10,8 @@ const menu = [
             desc: "A premium selection of chef's choice nigiri, maki rolls, and fresh sashimi served with wasabi."
         },
         km: {
-            title: "ឈុតស៊ូស៊ីប្រណិត",
-            desc: "ជម្រើសពិសេសចុងភៅសម្រាប់ នីហ្គីរី ម៉ាគីរ៉ូល និងសាស៊ីមីស្រស់ៗ ជូនរ៉មជាមួយវ៉ាសាប៊ិ។"
+            title: "ß₧êß₧╗ß₧Åß₧ƒßƒèß₧╝ß₧ƒßƒèß₧╕ß₧ößƒÆß₧Üß₧Äß₧╖ß₧Å",
+            desc: "ß₧çß₧ÿßƒÆß₧Üß₧╛ß₧ƒß₧ûß₧╖ß₧ƒßƒüß₧ƒß₧àß₧╗ß₧äß₧ùßƒàß₧ƒß₧ÿßƒÆß₧Üß₧╢ß₧ößƒï ß₧ôß₧╕ß₧áßƒÆß₧éß₧╕ß₧Üß₧╕ ß₧ÿßƒëß₧╢ß₧éß₧╕ß₧Üßƒëß₧╝ß₧¢ ß₧ôß₧╖ß₧äß₧ƒß₧╢ß₧ƒßƒèß₧╕ß₧ÿß₧╕ß₧ƒßƒÆß₧Üß₧ƒßƒïßƒù ß₧çß₧╝ß₧ôß₧Üßƒëß₧ÿß₧çß₧╢ß₧ÿß₧╜ß₧Öß₧£ßƒëß₧╢ß₧ƒß₧╢ß₧ößƒèß₧╖ßƒö"
         }
     },
     {
@@ -24,8 +24,8 @@ const menu = [
             desc: "Traditional French beef stew braised in rich red wine, lardons, mushrooms, and carrots."
         },
         km: {
-            title: "សាច់គោ ប៊ូហ្គីញ៉ុង",
-            desc: "ស៊ុបសាច់គោបែបបារាំងបុរាណ រំងាស់ជាមួយស្រាក្រហម ផ្សិត និងការ៉ុត យ៉ាងឈ្ងុយឆ្ងាញ់។"
+            title: "ß₧ƒß₧╢ß₧àßƒïß₧éßƒä ß₧ößƒèß₧╝ß₧áßƒÆß₧éß₧╕ß₧ëßƒëß₧╗ß₧ä",
+            desc: "ß₧ƒßƒèß₧╗ß₧öß₧ƒß₧╢ß₧àßƒïß₧éßƒäß₧ößƒéß₧öß₧öß₧╢ß₧Üß₧╢ßƒåß₧äß₧öß₧╗ß₧Üß₧╢ß₧Ä ß₧Üßƒåß₧äß₧╢ß₧ƒßƒïß₧çß₧╢ß₧ÿß₧╜ß₧Öß₧ƒßƒÆß₧Üß₧╢ß₧ÇßƒÆß₧Üß₧áß₧ÿ ß₧òßƒÆß₧ƒß₧╖ß₧Å ß₧ôß₧╖ß₧äß₧Çß₧╢ß₧Üßƒëß₧╗ß₧Å ß₧Ößƒëß₧╢ß₧äß₧êßƒÆß₧äß₧╗ß₧Öß₧åßƒÆß₧äß₧╢ß₧ëßƒïßƒö"
         }
     },
     {
@@ -38,8 +38,8 @@ const menu = [
             desc: "Ceremonial grade Japanese green tea whisked with steamed oat milk and raw honey."
         },
         km: {
-            title: "ម៉ាត់ឆា ឡាតេ",
-            desc: "តែបៃតងជប៉ុនលំដាប់ថ្នាក់ថ្វាយព្រះសង្ឃ វាយលាយជាមួយទឹកដោះគោអូត និងទឹកឃ្មុំធម្មជាតិ។"
+            title: "ß₧ÿßƒëß₧╢ß₧Åßƒïß₧åß₧╢ ß₧íß₧╢ß₧Åßƒü",
+            desc: "ß₧Åßƒéß₧ößƒâß₧Åß₧äß₧çß₧ößƒëß₧╗ß₧ôß₧¢ßƒåß₧èß₧╢ß₧ößƒïß₧ÉßƒÆß₧ôß₧╢ß₧Çßƒïß₧ÉßƒÆß₧£ß₧╢ß₧Öß₧ûßƒÆß₧Üßƒçß₧ƒß₧äßƒÆß₧â ß₧£ß₧╢ß₧Öß₧¢ß₧╢ß₧Öß₧çß₧╢ß₧ÿß₧╜ß₧Öß₧æß₧╣ß₧Çß₧èßƒäßƒçß₧éßƒäß₧óß₧╝ß₧Å ß₧ôß₧╖ß₧äß₧æß₧╣ß₧Çß₧âßƒÆß₧ÿß₧╗ßƒåß₧Æß₧ÿßƒÆß₧ÿß₧çß₧╢ß₧Åß₧╖ßƒö"
         }
     },
     {
@@ -52,8 +52,8 @@ const menu = [
             desc: "Stir-fried rice noodles with tofu, shrimp, bean sprouts, and a tangy tamarind sauce."
         },
         km: {
-            title: "ផាត់ថៃ",
-            desc: "មីឆាថៃជាមួយតៅហ៊ូ បង្គា សណ្តែកបណ្តុះ និងទឹកជ្រលក់អំពិលទុំជូរអែម។"
+            title: "ß₧òß₧╢ß₧Åßƒïß₧Éßƒâ",
+            desc: "ß₧ÿß₧╕ß₧åß₧╢ß₧Éßƒâß₧çß₧╢ß₧ÿß₧╜ß₧Öß₧Åßƒàß₧áßƒèß₧╝ ß₧öß₧äßƒÆß₧éß₧╢ ß₧ƒß₧ÄßƒÆß₧Åßƒéß₧Çß₧öß₧ÄßƒÆß₧Åß₧╗ßƒç ß₧ôß₧╖ß₧äß₧æß₧╣ß₧Çß₧çßƒÆß₧Üß₧¢ß₧Çßƒïß₧óßƒåß₧ûß₧╖ß₧¢ß₧æß₧╗ßƒåß₧çß₧╝ß₧Üß₧óßƒéß₧ÿßƒö"
         }
     },
     {
@@ -66,8 +66,8 @@ const menu = [
             desc: "Authentic Roman pasta made with crispy guanciale, egg yolks, and Pecorino Romano cheese."
         },
         km: {
-            title: "អ៊ីតាលី កាបូណារ៉ា",
-            desc: "ប៉ាស្តាបែប រ៉ូម៉ាំង ពិតប្រាកដ ចម្អិនជាមួយសាច់ជ្រូកបំពងស្រួយ ផ្នែកលឿងនៃស៊ុត និងឈីស Pecorino Romano។"
+            title: "ß₧óßƒèß₧╕ß₧Åß₧╢ß₧¢ß₧╕ ß₧Çß₧╢ß₧öß₧╝ß₧Äß₧╢ß₧Üßƒëß₧╢",
+            desc: "ß₧ößƒëß₧╢ß₧ƒßƒÆß₧Åß₧╢ß₧ößƒéß₧ö ß₧Üßƒëß₧╝ß₧ÿßƒëß₧╢ßƒåß₧ä ß₧ûß₧╖ß₧Åß₧ößƒÆß₧Üß₧╢ß₧Çß₧è ß₧àß₧ÿßƒÆß₧óß₧╖ß₧ôß₧çß₧╢ß₧ÿß₧╜ß₧Öß₧ƒß₧╢ß₧àßƒïß₧çßƒÆß₧Üß₧╝ß₧Çß₧ößƒåß₧ûß₧äß₧ƒßƒÆß₧Üß₧╜ß₧Ö ß₧òßƒÆß₧ôßƒéß₧Çß₧¢ß₧┐ß₧äß₧ôßƒâß₧ƒßƒèß₧╗ß₧Å ß₧ôß₧╖ß₧äß₧êß₧╕ß₧ƒ Pecorino Romanoßƒö"
         }
     },
     {
@@ -80,8 +80,8 @@ const menu = [
             desc: "Refreshing blend of white rum, fresh lime juice, muddled mint leaves, and sparkling soda."
         },
         km: {
-            title: "ម៉ូហ៊ីតូ បុរាណ",
-            desc: "ការលាយបញ្ចូលគ្នាដ៏ស្រស់ស្រាយនៃស្រា រ៉ាំ សរ ទឹកក្រូចឆ្មារស្រស់ ស្លឹកជីអង្កាម និងសូដា។"
+            title: "ß₧ÿßƒëß₧╝ß₧áßƒèß₧╕ß₧Åß₧╝ ß₧öß₧╗ß₧Üß₧╢ß₧Ä",
+            desc: "ß₧Çß₧╢ß₧Üß₧¢ß₧╢ß₧Öß₧öß₧ëßƒÆß₧àß₧╝ß₧¢ß₧éßƒÆß₧ôß₧╢ß₧èßƒÅß₧ƒßƒÆß₧Üß₧ƒßƒïß₧ƒßƒÆß₧Üß₧╢ß₧Öß₧ôßƒâß₧ƒßƒÆß₧Üß₧╢ ß₧Üßƒëß₧╢ßƒå ß₧ƒß₧Ü ß₧æß₧╣ß₧Çß₧ÇßƒÆß₧Üß₧╝ß₧àß₧åßƒÆß₧ÿß₧╢ß₧Üß₧ƒßƒÆß₧Üß₧ƒßƒï ß₧ƒßƒÆß₧¢ß₧╣ß₧Çß₧çß₧╕ß₧óß₧äßƒÆß₧Çß₧╢ß₧ÿ ß₧ôß₧╖ß₧äß₧ƒß₧╝ß₧èß₧╢ßƒö"
         }
     }
 ];
@@ -130,15 +130,11 @@ function renderMenu() {
 
 // Function to translate static sidebar headings and filter button texts
 function updateUIStrings() {
-<<<<<<< HEAD
-=======
-    // Translate Title and Subtitle
     const titleEl = document.getElementById("sidebar-title");
     const subtitleEl = document.getElementById("sidebar-subtitle");
     titleEl.innerText = titleEl.getAttribute(`data-${currentLanguage}`);
     subtitleEl.innerText = subtitleEl.getAttribute(`data-${currentLanguage}`);
 
->>>>>>> 34e369bf1169f4d0fb92d6377d6733d3f3d98ede
     // Translate all active category filter buttons
     filterBtns.forEach(btn => {
         btn.innerText = btn.getAttribute(`data-${currentLanguage}`);
@@ -151,7 +147,7 @@ langToggleBtn.addEventListener("click", function () {
     currentLanguage = currentLanguage === "en" ? "km" : "en";
     
     // Style toggle indicator or text change if desired
-    langToggleBtn.innerText = currentLanguage === "en" ? "ភាសាខ្មែរ" : "English";
+    langToggleBtn.innerText = currentLanguage === "en" ? "ß₧ùß₧╢ß₧ƒß₧╢ß₧üßƒÆß₧ÿßƒéß₧Ü" : "English";
     
     // Update structural layout text and refresh menu
     updateUIStrings();

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Horizon Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Optional: Add a Google Font for better Khmer typography rendering -->
+    <link href="https://fonts.googleapis.com/css2?family=Khmer&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <img class="main-logo" src="./images/logo/Veata_logo.png" alt="Veata Logo">
+            <div class="lang-toggle-container">
+                <button id="lang-toggle" class="lang-btn">ß₧Çß₧ÿßƒÆß₧ûß₧╗ß₧çß₧╢ / EN</button>
+            </div>
+
+            <h2 id="sidebar-title" data-en="Veata Restaurant & Skylounge" data-km="ß₧ùßƒäß₧çß₧ôß₧╕ß₧Öß₧èßƒÆß₧ïß₧╢ß₧ô ß₧£ß₧╢ß₧Åß₧╢ & ß₧ƒßƒÆß₧Çß₧╢ß₧Öß₧íßƒäß₧ë">Veata Restaurant & Skylounge</h2>
+            <p class="subtitle" id="sidebar-subtitle" data-en="Fresh & Authentic" data-km="ß₧ƒßƒÆß₧Üß₧ƒßƒïßƒù & ß₧Üß₧ƒß₧çß₧╢ß₧Åß₧╖ß₧èß₧╛ß₧ÿ">Fresh & Authentic</p>
+            
+            <nav class="btn-container">
+                <button class="filter-btn active" data-id="all" data-en="All Items" data-km="ß₧ÿß₧╗ß₧üß₧ÿßƒÆß₧áß₧╝ß₧öß₧æß₧╢ßƒåß₧äß₧óß₧ƒßƒï">All Items</button>
+                <button class="filter-btn" data-id="asian" data-en="Asian Food" data-km="ß₧óß₧╢ß₧áß₧╢ß₧Üß₧óß₧╢ß₧ƒßƒèß₧╕">Asian Food</button>
+                <button class="filter-btn" data-id="europe" data-en="Europe Food" data-km="ß₧óß₧╢ß₧áß₧╢ß₧Üß₧óß₧║ß₧Üßƒëß₧╗ß₧ö">Europe Food</button>
+                <button class="filter-btn" data-id="drinks" data-en="Drinks" data-km="ß₧ùßƒüß₧ƒß₧çßƒÆß₧çßƒê">Drinks</button>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <div class="menu-grid" id="menu-container"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
