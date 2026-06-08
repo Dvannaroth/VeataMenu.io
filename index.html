@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Horizon Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Optional: Add a Google Font for better Khmer typography rendering -->
+    <link href="https://fonts.googleapis.com/css2?family=Khmer&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <img src="./images/logo/Veata_logo.png" class="logo">    
+            <nav class="btn-container">
+                <button class="filter-btn active" data-id="asian" data-en="Asian Food" data-km="អាហារអាស៊ី">Asian Food</button>
+                <button class="filter-btn" data-id="western" data-en="Western Food" data-km="អាហារខាងលិច">Western Food</button>
+                <button class="filter-btn" data-id="drinks" data-en="Drinks" data-km="ភេសជ្ជៈ">Drinks</button>
+                <!-- Language Toggle Button -->
+                <div class="lang-toggle-container">
+                <button id="lang-toggle" class="lang-btn">KHMER</button>
+                </div>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <div class="menu-grid" id="menu-container"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
