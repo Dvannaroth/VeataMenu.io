@@ -114,7 +114,10 @@ function renderMenu() {
         const langData = item[currentLanguage]; // Dynamically targets item.en or item.km
         
         return `<article class="menu-item">
-            <img src="${item.img}" alt="${langData.title}" class="item-img">
+            
+            <div class="img-container">
+                <img src="${item.img}" alt="${langData.title}" class="item-img">
+            </div>
             <div class="item-info">
                 <div class="item-header">
                     <h3>${langData.title}</h3>
